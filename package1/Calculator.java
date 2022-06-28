@@ -17,7 +17,30 @@ public class Calculator {
     }
 
     public static double average(double[] grades) {
-        // TODO - compute and return the average.
-        return 0;
+        double sum = 0;
+
+        for (double grade : grades) {
+            sum += grade;
+        }
+
+        return sum / grades.length;
+    }
+
+    public static int fib(int n) {
+        // fib sequence starts out as 0, 1, 1, 2
+        if (n <= 1) {
+            return n;
+        }
+
+        int a = 0;
+        int b = 1;
+
+        for (int i = 2; i <= n; i++) {
+            int next = a + b;
+            a = b;
+            b = next;
+        }
+
+        return b;
     }
 }
