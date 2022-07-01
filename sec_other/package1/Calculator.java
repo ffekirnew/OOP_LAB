@@ -1,4 +1,4 @@
-package package1;
+package sec_other.package1;
 
 public class Calculator {
     private static double PI = 3.141592; // class variables.

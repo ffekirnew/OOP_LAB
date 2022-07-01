@@ -1,4 +1,4 @@
-package package1;
+package sec_other.package1;
 
 public class Person {
     public final String name; // instance variable.

@@ -1,7 +1,7 @@
-package package2;
+package sec_other.package2;
 
-import package1.Calculator;
-import package1.Person;
+import sec_other.package1.Calculator;
+import sec_other.package1.Person;
 
 public class Program {
     public static void main(String[] args) {
